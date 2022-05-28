@@ -1,7 +1,12 @@
 package org.oca;
 
+import org.oca.chapter1.Animal;
+
 public class OCA {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		Animal dog = new Animal();
+		
+		dog.setName("Bakuncho");
+		System.out.println(dog.getName());
 	}
 }
